@@ -1,8 +1,7 @@
 package org.tut.spil;
 
-import java.util.Random;
-
 //de biblioteker som vi vil bruge til spillet
+import java.util.Random;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
