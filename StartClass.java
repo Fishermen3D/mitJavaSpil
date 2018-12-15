@@ -30,10 +30,10 @@ public class StartClass extends ApplicationAdapter {
 	//selve baggrunden
 	Sprite baggrund;
 	
-	//den lyd effekt som vi vil blive afspillet når spilleren fanger frugten
+	//den lyd effekt som vi vil have afspillet når spilleren fanger frugten
 	Sound lyd1;
 	
-	//den lyd effekt som vi vil blive afspillet når frugten rammer bunden af vinduet 
+	//den lyd effekt som vi vil have afspillet når frugten rammer bunden af vinduet 
 	Sound lyd2;
 	
 	//denne variable vil vi bruge til at fortælle computeren at spillet er slut
@@ -160,7 +160,7 @@ public class StartClass extends ApplicationAdapter {
 			
 		}
 		
-		//begynd at tenge vores ting
+		//begynd at tegne vores ting
 		sb.begin();
 		
 		//tegn baggrunden
@@ -175,7 +175,7 @@ public class StartClass extends ApplicationAdapter {
 		//hvis spillet er slut
 		if(gameOver == true) {
 			
-			//så viser vi game over skærmen
+			//så tegner vi game over skærmen
 			slut.draw(sb);
 			
 		}
