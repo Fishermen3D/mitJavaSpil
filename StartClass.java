@@ -31,7 +31,10 @@ public class StartClass extends ApplicationAdapter {
 	//selve baggrunden
 	Sprite baggrund;
 	
+	//den lyd effekt som vi vil blive afspillet når spilleren fanger frugten
 	Sound lyd1;
+	
+	//den lyd effekt som vi vil blive afspillet når frugten rammer bunden af vinduet 
 	Sound lyd2;
 	
 	//denne variable vil vi bruge til at fortælle computeren at spillet er slut
