@@ -124,7 +124,7 @@ public class StartClass extends ApplicationAdapter {
 		//hvis frugten rammer bunden af vinduet.
 		if(frugt.getY() < 0) {
 			
-			//lad os nu placere vores frugt på toppen af vinduet med det nye tilfældige tal.
+			//lad os placere frugten væk fra bunden for en sikkerheds skyld
 			frugt.setPosition(100, 600);
 			
 			//afspil en lyd
