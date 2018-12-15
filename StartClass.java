@@ -53,7 +53,7 @@ public class StartClass extends ApplicationAdapter {
 		Gdx.graphics.setWindowedMode(800, 600);
 		
 		//set titlen på vinduet
-		Gdx.graphics.setTitle("Mit Føreste spil!");
+		Gdx.graphics.setTitle("Mit Første spil!");
 		
 		//vi vil ikke have at spilleren kan udvide vinduet
 		Gdx.graphics.setResizable(false);
