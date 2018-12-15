@@ -2,7 +2,7 @@ package org.tut.spil;
 
 import java.util.Random;
 
-//de bibleoteker som vi vil bruge til spillet
+//de biblioteker som vi vil bruge til spillet
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
