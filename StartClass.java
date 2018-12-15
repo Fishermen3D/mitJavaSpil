@@ -31,9 +31,6 @@ public class StartClass extends ApplicationAdapter {
 	//selve baggrunden
 	Sprite baggrund;
 	
-	//spillerens poeng
-	int poeng = 0;
-	
 	Sound lyd1;
 	Sound lyd2;
 	
