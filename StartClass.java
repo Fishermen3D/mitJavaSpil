@@ -190,10 +190,9 @@ public class StartClass extends ApplicationAdapter {
 		
 		/*---------------------------------------------------------------------------------------------------
 		 * Alt herinde er noget computeren selv sørger for.                                                   *
-		 * Når computeren er færdig med noget at det data vi har givet den vil den fjerne det fra hukommelsen *
+		 * Når computeren er færdig med noget af det data vi har givet den vil den fjerne det fra hukommelsen *
 		 -----------------------------------------------------------------------------------------------------*/
 		
-		//fjern nogle data når computeren er færdig med at bruge dem.
 		sb.dispose();
 		lyd1.dispose();
 		lyd2.dispose();
