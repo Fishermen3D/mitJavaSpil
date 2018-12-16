@@ -49,10 +49,10 @@ public class StartClass extends ApplicationAdapter {
 		 * Alt herinde vil kund blive kaldt en gang                         *
 		 -------------------------------------------------------------------*/
 		
-		//set vindue størelsen til at være 800 gange 600
+		//sæt vindue størelsen til at være 800 gange 600
 		Gdx.graphics.setWindowedMode(800, 600);
 		
-		//set titlen på vinduet
+		//sæt titlen på vinduet
 		Gdx.graphics.setTitle("Mit Første spil!");
 		
 		//vi vil ikke have at spilleren kan udvide vinduet
@@ -67,7 +67,7 @@ public class StartClass extends ApplicationAdapter {
 		//her opretter vi spilleren med en ny tekstur
 		spiller = new Sprite(new Texture("mand.png"));
 		
-		//her setter vi spillerens position.
+		//her sætter vi spillerens position.
 		spiller.setPosition(10, 10);
 		
 		//her opretter vi vores frugt med en ny tekstur
